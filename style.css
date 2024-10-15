@@ -16,6 +16,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   height: 80px;
+  width: 100%;
   background-color: rgb(12, 12, 74);
 }
 
@@ -45,13 +46,13 @@ nav ul li a:hover {
 
 .firstSection {
   display: flex;
-  margin: 10px 0;
+  margin: 0px 0px;
   justify-content: space-around;
 }
 
 .firstSection > div {
-  /* width: 20%; */
-  margin: 160px 0;
+  width: 30%; 
+  margin: 0px 0px;
   align-items: center;
 }
 
@@ -81,8 +82,12 @@ nav ul li a:hover {
 
 #education .about-container {
   display: block;
-  margin: 20px 100px;
-  padding: 90px;
+  /* margin: 20px 100px;
+ */
+ margin: auto;
+  /* padding: 90px;
+   */
+   padding: auto;
 }
 
 h1 {
@@ -103,7 +108,7 @@ h1 {
 
 #certifications .about-content img {
   margin: auto;
-  width: 30%;
+  width: 50px;
 }
 
 #li1 {
@@ -240,4 +245,220 @@ h1 {
 
 #certifications .carousel-caption {
   color: rgb(34, 14, 52);
+}
+/* Existing CSS */
+/* ... (Your current CSS code remains unchanged here) ... */
+
+/* ------------------- Responsive Styles ------------------- */
+
+/* Large Devices (Desktops) */
+@media (min-width: 1024px) {
+  /* Adjusting navigation padding */
+  nav {
+    padding: 0 50px;
+  }
+
+  /* Adjusting margins in firstSection */
+  .firstSection {
+    margin: 20px 50px;
+  }
+
+  .firstSection > div {
+    margin: 160px 50px;
+  }
+
+  /* Adjusting education section padding */
+  #education .about-container {
+    margin: 20px 100px;
+    padding: 90px;
+  }
+
+  /* Adjusting carousel margins */
+  .carousel-inner {
+    margin-left: 200px;
+  }
+
+  /* Adjusting project container margins */
+  #projects .container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /* Adjusting skills container margins */
+  #skills .container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjusting navigation padding */
+  nav {
+    padding: 0 30px;
+  }
+
+  /* Adjusting margins in firstSection */
+  .firstSection {
+    flex-direction: column;
+    margin: 20px 30px;
+    align-items: center;
+  }
+
+  .firstSection > div {
+    margin: 80px 0;
+  }
+
+  /* Adjusting education section padding */
+  #education .about-container {
+    margin: 20px 50px;
+    padding: 60px;
+  }
+
+  /* Adjusting carousel margins */
+  .carousel-inner {
+    margin-left: 100px;
+  }
+
+  /* Adjusting project container margins */
+  #projects .container {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /* Adjusting skills container margins */
+  #skills .container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  /* Adjusting header font size */
+  .leftSection {
+    font-size: 2.5rem;
+  }
+
+  /* Adjusting main heading font size */
+  #education .content h1,
+  #skills .container h1,
+  #projects .container h1,
+  #certifications h1,
+  .contact h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Adjusting navigation links spacing */
+  nav ul li {
+    margin: 0 15px;
+  }
+}
+
+/* Small Devices (Mobile Phones) */
+@media (max-width: 767px) {
+  /* Adjusting navigation layout */
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  /* Adjusting margins in firstSection */
+  .firstSection {
+    flex-direction: column;
+    margin: 20px 20px;
+    align-items: center;
+  }
+
+  .firstSection > div {
+    margin: 80px 0;
+    text-align: center;
+  }
+
+  /* Adjusting font sizes */
+  .leftSection {
+    font-size: 2rem;
+  }
+
+  .firstSection .rightSection img {
+    width: 80%;
+  }
+
+  /* Adjusting education section padding */
+  #education .about-container {
+    margin: 20px 20px;
+    padding: 40px;
+  }
+
+  /* Adjusting carousel margins */
+  .carousel-inner {
+    margin-left: 0;
+  }
+
+  /* Adjusting project container margins */
+  #projects .container {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Adjusting skills container margins */
+  #skills .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  /* Adjusting project columns */
+  #projects .col,
+  #certifications .carousel-item,
+  .carousel-inner,
+  .column {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Adjusting h1 font sizes */
+  #education .content h1,
+  #skills .container h1,
+  #projects .container h1,
+  #certifications h1,
+  .contact h1 {
+    font-size: 2rem;
+  }
+
+  /* Adjusting padding in sections */
+  h1 {
+    padding-top: 50px;
+  }
+
+  /* Adjusting carousel image sizes */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjusting footer padding */
+  .port {
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Adjusting contact section padding */
+  #contacts .contact {
+    margin-bottom: 20px;
+  }
+
+  /* Adjusting navigation font size */
+  nav ul li a {
+    font-size: 1rem;
+  }
 }
