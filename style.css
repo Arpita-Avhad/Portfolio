@@ -1,0 +1,243 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(5, 14, 41);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(12, 12, 74);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {  
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(152, 152, 221);
+  font-size: 1.01rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+}
+
+.firstSection > div {
+  /* width: 20%; */
+  margin: 160px 0;
+  align-items: center;
+}
+
+.leftSection {
+  font-size: 3rem;
+}
+
+.rightSection img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.purple {
+  color: rgb(149, 91, 202);
+}
+
+#element {
+  color: rgb(149, 91, 202);
+}
+
+#education .content h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#education .about-container {
+  display: block;
+  margin: 20px 100px;
+  padding: 90px;
+}
+
+h1 {
+  padding-top: 100px;
+}
+
+#education .about-container h4 {
+  position: relative;
+  padding-top: 30px;
+}
+
+#education .about-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#certifications .about-content img {
+  margin: auto;
+  width: 30%;
+}
+
+#li1 {
+  color: rgb(149, 91, 202);
+}
+
+.carousel-item {
+  width: 80%;
+}
+
+.carousel-inner {
+  text-align: center;
+  margin-left: 200px;
+}
+
+.column {
+  width: 600px;
+}
+
+.column h5 {
+  color: rgb(149, 91, 202);
+}
+
+#project .proj h1 {
+  margin-bottom: 50px;
+  padding-bottom: 43px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#projects .container {
+  margin-top: 50px;
+}
+
+#projects .container h1 {
+  margin-bottom: 50px;
+  padding-bottom: 43px;
+  font-size: 3rem;
+}
+
+#projects .container h3 {
+  font-size: 3rem;
+}
+
+#projects .col {
+  margin: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.col h4 {
+  color: rgb(149, 91, 202);
+}
+
+#skills .container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#skills .container h1 {
+  padding-bottom: 23px;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+#skills .col {
+  margin-bottom: 20px;
+}
+
+.p-3 {
+  color: rgb(28, 5, 20);
+  font-family: 'Roboto', sans-serif; 
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+.p-3:hover {
+  color: rgb(63, 32, 92);
+  font-size: 1.4rem;
+}
+
+#contacts .contact {
+  margin-bottom: 40px;
+}
+
+.contact h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 3rem;
+}
+
+.contact h6 {
+  text-align: center;
+}
+
+#contacts .add {
+  font-size: 1.2rem;
+}
+
+#contacts address {
+  text-decoration: none;
+  color: white;
+}
+
+#contacts .add p {
+  font-size: 1rem;
+  margin-bottom: 26px;
+  color: rgb(149, 91, 202);
+}
+
+.port {
+  background-color: rgb(12, 12, 74);
+  height: 80px;
+  text-align: center;
+  padding-top: 23px;
+}
+
+.heading {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.heading:hover {
+  color: rgb(152, 152, 221);
+  font-size: 24px;
+}
+
+#certifications h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 3rem;
+}
+
+#certifications .carousel-caption {
+  color: rgb(34, 14, 52);
+}
